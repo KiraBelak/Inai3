@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inai3.Android", "Inai3.Android\Inai3.Android.csproj", "{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inai3", "Inai3\Inai3.csproj", "{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vistas", "Vistas", "{CC1DD6F6-39FA-4971-9D90-FC7534F35AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inai3", "Inai3\Inai3.csproj", "{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
