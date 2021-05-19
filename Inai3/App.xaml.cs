@@ -11,7 +11,7 @@ namespace Inai3
         {
             InitializeComponent();
 
-            MainPage = new Persona_Fisica();
+            MainPage = new MainEstados();
         }
 
         protected override void OnStart()
