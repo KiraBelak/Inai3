@@ -1,10 +1,138 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Inai3.NewFolder.Partidos">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
-</ContentView>
+    <ScrollView HeightRequest="3000" BackgroundColor="#f1f1e9">
+        
+        <StackLayout>
+          
+            <Label Text="Partido de Interes" 
+                   FontSize="45"
+               FontAttributes="Bold"
+                   TextColor="DarkGoldenrod"
+               HorizontalOptions="Center" />
+        
+        <!-- Boton PRI -->
+            <ImageButton Source ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PRI_logo_%28Mexico%29.svg/800px-PRI_logo_%28Mexico%29.svg.png"
+                      WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                     x:Name="PRI"
+                     Clicked="PRI_Clicked"
+                     FlexLayout.AlignSelf="Auto"/>
+        <!-- Botno PAN -->
+        <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/8/8b/Logo_PAN.jpg"
+                      WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                      x:Name="PAN"
+                     Clicked="PAN_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+        <!-- Botno Morena -->
+        <ImageButton Source="https://diarioevolucion.com.mx/wp-content/uploads/2015/10/LOGO-DE-MORENA.jpg"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="MORENA"
+                     Clicked="MORENA_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno MVC -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_Partido_Movimiento_Ciudadano_%28M%C3%A9xico%29.svg/1200px-Logo_Partido_Movimiento_Ciudadano_%28M%C3%A9xico%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="MVC"
+                     Clicked="MVC_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno PT -->
+            <ImageButton Source="https://img.pngio.com/pt-png-3-png-image-pt-png-250_250.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="PT"
+                     Clicked="PT_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno ALIANZA -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/7/72/Nueva_alianza.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="ALI"
+                     Clicked="ALI_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno VERDE -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Logo_Partido_Verde_%28M%C3%A9xico%29.svg/1200px-Logo_Partido_Verde_%28M%C3%A9xico%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="VERDE"
+                     Clicked="VERDE_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno coali -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Va_por_Baja_California_%282021%29.svg/800px-Va_por_Baja_California_%282021%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="COALI"
+                     Clicked="COALI_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno PEST -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Encuentro_Solidario.svg/1024px-Logo_Encuentro_Solidario.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="PEST"
+                     Clicked="PEST_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno PRD -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/PRD_logo_%28Mexico%29.svg/1200px-PRD_logo_%28Mexico%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="PRD"
+                     Clicked="PRD_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno PBC -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/PBC_logo_%28Mexico%29.svg/1024px-PBC_logo_%28Mexico%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="PBC"
+                     Clicked="PBC_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno RSP -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/RSP_logo_%28Mexico%29.svg/1200px-RSP_logo_%28Mexico%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="RSP"
+                     Clicked="RSP_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+            <!-- Botno FPM -->
+            <ImageButton Source="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/FPM_logo_%28Mexico%29.svg/800px-FPM_logo_%28Mexico%29.svg.png"
+                     WidthRequest="200"
+                     HeightRequest="200"
+        HorizontalOptions="Center"
+                    VerticalOptions="End"
+                      x:Name="FPM"
+                     Clicked="FPM_Clicked"
+                      FlexLayout.AlignSelf="Auto"/>
+
+
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
