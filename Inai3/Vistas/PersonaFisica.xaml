@@ -1,0 +1,66 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Inai3.Vistas.Persona_Fisica">
+
+    <StackLayout BackgroundColor="#ffffff">
+
+        <Frame Margin="10"
+           BorderColor="#00a8ff"
+           CornerRadius="150"
+           HeightRequest="200"
+           WidthRequest="200"
+           IsClippedToBounds="True"
+           HorizontalOptions="Center"
+           VerticalOptions="Center">
+            <Image Source="JUANCITO.png"
+           BackgroundColor="#ffffff"
+             Aspect="AspectFill"
+             Margin="-8"
+             HeightRequest="100"
+             WidthRequest="100" />
+        </Frame>
+
+        <Label Text="JUANCITO PEÑA V." 
+        TextColor="Black"
+        FontSize="30"
+        Padding="1"
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand" />
+
+        <Label Text="ING.SISTEMAS Y COMPUTACION" 
+        TextColor="#3742fa"
+         FontSize="20"
+         Padding="0"
+         HorizontalOptions="Center"
+         VerticalOptions="CenterAndExpand" />
+
+        <Label Text="Programador Web (HTML, CSS, JS, PHP),.Net (C#, VB.Net), Mobile(Xamarin C#) | Data Analyst (SQL, Excel, Power BI, Crystal Report, R, Python)| Teacher Technology"
+               TextColor="Black"
+               FontSize="22"
+               FontAttributes="Bold"
+               Margin="8"
+               Padding="10,10,10,10"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"         
+            />
+
+
+        <Label Text="Mis Redes Sociales"
+              TextColor="#44bd32"
+               FontSize="25"
+               Padding="0"
+                FontFamily = "Lobster"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"   />
+
+
+        <StackLayout Orientation="Vertical" HeightRequest="80" BackgroundColor="#f5f6fa" Padding="10">
+
+           
+
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,20 +1,20 @@
-﻿using Inai3.NewFolder;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Inai3
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Inai3.Vistas
 {
-    public partial class MainPage : ContentPage
+    
+    public partial class Persona_Fisica : ContentPage
     {
-        public MainPage()
+        public Persona_Fisica()
         {
             InitializeComponent();
-            
         }
     }
 }

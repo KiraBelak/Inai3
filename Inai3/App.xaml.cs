@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inai3.Vistas;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Inai3
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Persona_Fisica();
         }
 
         protected override void OnStart()
