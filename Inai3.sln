@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inai3.Android", "Inai3.Android\Inai3.Android.csproj", "{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inai3", "Inai3\Inai3.csproj", "{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C9BF97-24AB-4FA0-A03B-43B61C1FEF9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C08D80-430B-46CC-AE2F-4D7CB532CDD6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {685BBBE6-3AD1-4E46-BE79-A47C9D0E3327}
+	EndGlobalSection
+EndGlobal
