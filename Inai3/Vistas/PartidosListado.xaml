@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Inai3.Vistas.PartidosListado">
+    <ScrollView HeightRequest="3000" BackgroundColor="#f1f1e9">
+        <StackLayout BackgroundColor="#ffffff">
+
+            <Frame Margin="10"
+           BorderColor="#00a8ff"
+              
+           CornerRadius="150"
+           HeightRequest="200"
+           WidthRequest="200"
+           IsClippedToBounds="True"
+           HorizontalOptions="Center"
+           VerticalOptions="Center">
+                <Image Source="aaaa.jpng"></Image>
+
+            </Frame>
+
+            <Label Text="Nombre " 
+        TextColor="Black"
+        FontSize="30"
+        Padding="1"
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand" />
+
+            <Label Text="Puesto" 
+        TextColor="#3742fa"
+         FontSize="20"
+         Padding="0"
+         HorizontalOptions="Center"
+         VerticalOptions="CenterAndExpand" />
+
+            <Label Text="Datos generales de la persona"
+               TextColor="Black"
+               FontSize="22"
+               FontAttributes="Bold"
+               Margin="8"
+               Padding="10,10,10,10"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"         
+            />
+
+
+            <Label Text="Lo que esta persona a logrado en el transcurso de su carrera o no"
+              TextColor="#44bd32"
+               FontSize="25"
+               Padding="0"
+                FontFamily = "Lobster"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"   />
+
+
+            <StackLayout Orientation="Vertical" HeightRequest="80" BackgroundColor="#f5f6fa" Padding="10">
+
+
+
+            </StackLayout>
+
+
+        </StackLayout>
+        
+    
+</ContentPage>
