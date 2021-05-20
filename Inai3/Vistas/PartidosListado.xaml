@@ -65,7 +65,7 @@
                      HeightRequest="100"
         HorizontalOptions="Center"
                    
-                      x:Name="Foto3"
+                      x:Name="Foto5"
                      Clicked="Foto3_Clicked_1"
                       FlexLayout.AlignSelf="Auto"/>
             <Label Text="Nombre " 

@@ -12,11 +12,10 @@ namespace Inai3
         {
             InitializeComponent();
 
-<<<<<<< Updated upstream
-            MainPage = new Persona_Fisica();
-=======
-            MainPage = new MainEstados();
->>>>>>> Stashed changes
+
+
+            MainPage = new Partidos();
+
         }
 
         protected override void OnStart()
