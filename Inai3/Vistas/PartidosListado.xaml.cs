@@ -16,5 +16,30 @@ namespace Inai3.Vistas
         {
             InitializeComponent();
         }
+
+        private void Foto1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Foto2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Foto3_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Foto3_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Foto4_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
