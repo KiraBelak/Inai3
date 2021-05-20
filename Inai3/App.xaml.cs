@@ -1,4 +1,5 @@
-﻿using Inai3.Vistas;
+﻿using Inai3.NewFolder;
+using Inai3.Vistas;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace Inai3
         {
             InitializeComponent();
 
-            MainPage = new MainEstados();
+            MainPage = new Partidos();
         }
 
         protected override void OnStart()

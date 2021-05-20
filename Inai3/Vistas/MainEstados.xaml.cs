@@ -28,7 +28,7 @@ namespace Inai3.Vistas
             Estados.Add(new Estado
             {
                 Name = "Chihuahua",
-                Ubicacion = "Norte",
+                Ubicacion = "Chihuahua",
                 Url = "https://www.pngkit.com/png/full/969-9694802_chihuahua-mapa-png-estado-de-chihuahua-vector.png"
             });
 

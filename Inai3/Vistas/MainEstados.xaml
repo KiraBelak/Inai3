@@ -2,12 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Inai3.Vistas.MainEstados">
-    <ContentPage.Content>
-        <StackLayout Margin="20,20,20,20">
+    <ContentPage.Content  >
+        
+        <StackLayout Margin="20,20,20,20"
+                     >
             <ListView ItemsSource="{Binding Estados}" HasUnevenRows="True"
                       ItemSelected="ListView_ItemSelected"
-                      ItemTapped="ListView_ItemTapped">
-                <ListView.ItemTemplate>
+                      ItemTapped="ListView_ItemTapped"
+                      BackgroundColor="#f1f1e9"
+                      >
+                <ListView.ItemTemplate >
                 <DataTemplate>
                         <ViewCell>
                             <Grid Padding="10">
@@ -26,7 +30,9 @@
                                        WidthRequest="60"/>
                                 <Label Grid.Column="1"
                                        Text="{Binding Name}"
-                                       FontAttributes="Bold"/>
+                                       FontAttributes="Bold"
+                                       TextColor="Black"/>
+                                
                                 <Label Grid.Row="1"
                                        Grid.Column="1"
                                        Text="{Binding Ubication}"
