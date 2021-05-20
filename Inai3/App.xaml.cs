@@ -12,7 +12,7 @@ namespace Inai3
         {
             InitializeComponent();
 
-            MainPage = new Partidos();
+            MainPage = new Persona_Fisica();
         }
 
         protected override void OnStart()
